@@ -12,7 +12,10 @@ def fibonacci(n):
     return c
 
 
-num_terms = 50
+# Get the number of terms from the user
+
+num_terms = int(input("Enter the number of terms: "))
+
 fibonacci_sequence = []
 for i in range(num_terms):
   fibonacci_sequence.append(fibonacci(i))
